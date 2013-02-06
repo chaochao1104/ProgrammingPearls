@@ -25,13 +25,13 @@ public class Demo {
 		int r = new RecursiveMaxSubsetFinder().find(testArr);
 		long stop = System.nanoTime();
 		System.out.print("max sum: " + r);
-		System.out.println("  elapsed: " + (stop - start) + "(ns)");
+		System.out.println(",  elapsed: " + (stop - start) + "(ns)");
 		
 		start = System.nanoTime();
 		r = new BestMaxSubsetFinder().find(testArr);
 		stop = System.nanoTime();
 		System.out.print("max sum: " + r);
-		System.out.println("  elapsed: " + (stop - start) + "(ns)");
+		System.out.println(",  elapsed: " + (stop - start) + "(ns)");
 	}
 	
 }
